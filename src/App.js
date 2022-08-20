@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <h3 data-ns-test="project-name">Facebook Clone</h3>
+     <p data-ns-test="project-description">My Dream Project is Facebook Clone why because it has all the features and functionalities
+      that one website or app should contain.
+     </p>
     </div>
   );
 }
